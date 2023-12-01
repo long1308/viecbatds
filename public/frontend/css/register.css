@@ -1,0 +1,173 @@
+.tab-pane {
+    opacity: 0;
+    transition: opacity 0.5s;
+    height: 0px;
+    display: none;
+}
+
+.tab-pane.active {
+    opacity: 1;
+    height: auto;
+    display: block;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.jobs__host__name {
+    width: 100%;
+}
+
+.nav-tabs li a {
+    margin-right: 2px;
+    line-height: 40px;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.nav-tabs li.active {
+    border-bottom: 0;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    margin-bottom: -1px;
+    border-radius: 5px 5px 0 0;
+    background: #194983;
+    color: #fff;
+}
+
+.form_signup {
+    padding: 15px;
+    background-color: #f6f6f6;
+}
+
+.box_form_signup {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+
+.box_form_signup .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_form_signup .title svg {
+    fill: #194983;
+}
+
+.box_form_signup .sub_title {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form_signup .box_form_signup .form-group {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group input {
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #c2c4c5;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.ss_dk {
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    color: #194983;
+    text-align: center;
+}
+
+.ss_dk a {
+    color: #194983;
+}
+
+.form_signup .box_form_signup .policy {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.form_signup .box_form_signup .form-control[type=submit] {
+    background-color: #194983;
+    color: #fff;
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    line-height: 34px;
+    height: 48px;
+    border-radius: 4px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+}
+
+.btn__register {
+    text-align: center;
+}
+
+.noidung_signup {
+    padding: 15px;
+    background-color: #f6f6f6;
+    height: 100%;
+}
+
+.noidung_signup .desc {
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+}
+
+.btn__register button {
+    background: #194983;
+    color: #fff;
+    height: 48px;
+    width: 100%;
+    max-width: 180px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn__register button:hover {
+    background: #cc0001;
+}
+.box__register {
+    margin-bottom: 50px;
+}
+.savePassword input {
+    width: 15px;
+    cursor: pointer;
+}
+
+.savePassword {
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important;
+}
+
+.savePassword label {
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+.forgotPassword {
+    text-align: center;
+    margin-top: 20px;
+}
+.forgotPassword a {
+    color: #194983;
+}

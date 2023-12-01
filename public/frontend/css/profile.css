@@ -1,0 +1,228 @@
+.box__left__profile {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 15px;
+}
+
+.box_inner__profile {
+    width: 100%;
+    background-color: #fff;
+    padding: 43px 65px;
+}
+
+.name__profile {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.rows__in {
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    float: left;
+    padding: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.rows_in_left {
+    width: 210px;
+    float: left;
+    padding: 0;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.rows_in_left label {
+    font-weight: 600;
+    margin: 0;
+}
+
+.row_in_right {
+    width: calc(100% - 210px);
+    float: left;
+    padding: 0 20px 0 8px;
+    max-width: 450px;
+}
+
+.from__profile {
+    float: left;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.from__profile input {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    box-shadow: unset;
+    border-radius: 3px;
+}
+
+.btn__add__product {
+    padding: 5px 0;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #cc0001;
+    height: 30px;
+    float: right;
+    min-height: 30px;
+    line-height: 23px;
+    font-size: 15px;
+    min-width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn__save {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    min-height: 50px;
+    line-height: 50px;
+    min-width: 202px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px;
+    outline: 0;
+    position: relative;
+    text-transform: uppercase;
+    background: #194983;
+    margin-top: 30px;
+}
+
+.btn__view__again {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    min-height: 50px;
+    line-height: 50px;
+    min-width: 202px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px;
+    outline: 0;
+    position: relative;
+    background: #cc0001;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.profile__ntd {
+    padding: 20px 0px;
+}
+
+.box__right__profile {
+    width: 100%;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.box__inner__right__profile {
+    width: 100%;
+    padding: 20px 19px;
+}
+
+.btn__ntds {
+    border-radius: 3px;
+    background-color: #194983;
+    text-align: center;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+.box__avt__profile {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+
+.name__profile__sidebar {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+}
+
+.name__profile__sidebar a {
+    color: #194983;
+}
+
+.desc__avt {
+    margin-top: 5px;
+    font-size: 10px;
+    color: #000;
+    font-weight: normal;
+}
+
+.form__post__avt {
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.fotm__post__avt input {
+    display: none;
+}
+
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    margin: 0;
+    opacity: 0;
+    display: none;
+}
+
+.btn__post__new {
+    width: 100%;
+    display: flex;
+    background-color: #cc0001;
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.rows__right {
+    display: flex;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    padding: 15px 15px;
+    line-height: 25px;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.icon__rows__right {
+    margin-right: 5px;
+    display: flex;
+}
+
+
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .tabs {
+            display: flex;
+        }
+
+        .tablinks {
+
+            outline: none;
+            cursor: pointer;
+            padding: 4px 8px;
+            transition: 0.2s ease;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #b3cde4;
+            border-color: #b3cde4;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -moz-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            height: auto;
+            font-size: 14px;
+        }
+
+        .tablinks:hover {
+            background-color: #0069d9;
+            color: #fff;
+        }
+
+        .tablinks.active {
+            background-color: #0069d9;
+            color: #fff;
+        }
+
+        .tabcontent {
+            display: none;
+        }
+
+        .tabcontent p {
+            color: #333;
+        }
+
+        .tabcontent.active {
+            display: block;
+        }
+        .tabs .tablinks:first-child {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        .tabs .tablinks:last-child {
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+    </style>
+    <div class="tabs">
+        <a class="tablinks active" data-electronic="tt1">Mới nhất</a>
+        <a class="tablinks" data-electronic="tt2">Điểm cao nhất</a>
+    </div>
+
+
+    <div class="wrapper_tabcontent">
+        <div id="tt1" class="tabcontent active">
+            hahah
+        </div>
+
+        <div id="tt2" class="tabcontent">
+            haha
+        </div>
+
+        <div id="tt3" class="tabcontent">
+            hahaha
+        </div>
+    </div>
+    <script>
+        var tabLinks = document.querySelectorAll(".tablinks");
+        var tabContent = document.querySelectorAll(".tabcontent");
+
+        tabLinks.forEach(function (el) {
+            el.addEventListener("click", openTabs);
+        });
+
+
+        function openTabs(el) {
+            var btn = el.currentTarget;
+            var electronic = btn.dataset.electronic;
+
+            tabContent.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            tabLinks.forEach(function (el) {
+                el.classList.remove("active");
+            });
+
+            document.querySelector("#" + electronic).classList.add("active");
+
+            btn.classList.add("active");
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+.slick-dots {
+    list-style: none;
+    /* Loại bỏ chấm mặc định */
+    display: flex;
+    justify-content: center;
+    /* Canh giữa các chấm */
+    margin: 10px 0;
+    /* Khoảng cách từ top hoặc bottom */
+    padding: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+    /* Khoảng cách giữa các chấm */
+}
+
+.slick-dots li button {
+    width: 10px;
+    /* Chiều rộng của chấm */
+    height: 10px;
+    /* Chiều cao của chấm */
+    border: 2px solid #333;
+    /* Viền chấm */
+    border-radius: 50%;
+    /* Làm cho chấm tròn */
+    background: transparent;
+    /* Nền trong suốt */
+    cursor: pointer;
+}
+
+/* Tùy chỉnh chấm điều hướng được chọn */
+.slick-dots li.slick-active button {
+    background: #333;
+    /* Màu nền của chấm khi được chọn */
+}
+
+.slick-dots li button {
+    color: transparent;
+    /* Đặt màu số thành trong suốt */
+}
+
+
+
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+    background: #eee !important;
+    border: 2px solid #eee !important;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}

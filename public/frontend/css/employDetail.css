@@ -1,0 +1,489 @@
+.company_details {
+    margin-top: 38px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.company_details .company_detail_left {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    position: relative;
+    width: calc(50% - 1px);
+    padding: 36px 20px;
+}
+
+.company_details .company_detail_left .title_button {
+    position: absolute;
+    top: -18px;
+    background-color: #194983;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0px 10px;
+    max-width: 240px;
+    text-align: center;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about_company_detail {
+    width: 100%;
+}
+
+.product_company_detail {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.about_company_detail .title {
+    color: #194983;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.about_company_detail .description {
+    text-align: justify;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.product_company_detail .title {
+    color: #194983;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list_product_in {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.list_news_company .title {
+    color: #194983;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list_news_rows2 {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.company_details .company_detail_right {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    position: relative;
+    width: calc(50% - 1px);
+    padding: 36px 7px;
+}
+
+.company_details .company_detail_right .title_button {
+    position: absolute;
+    top: -18px;
+    background-color: #194983;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0px 10px;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.list_of_job {
+    width: 100%;
+}
+
+.list_of_job .table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.table thead {
+    background-color: #ebebeb;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 10px 5px;
+    vertical-align: middle;
+    border-top: 1px solid #ebebeb;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.list_of_job th {
+    background-color: #bbbbbb;
+    color: #194983;
+    border: 1px solid #fff;
+}
+
+.company_details {
+    flex-direction: column;
+}
+
+.company_details .company_detail_left {
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.company_details .company_detail_right {
+    width: 100%;
+}
+
+.titleSendCv {
+    font-size: 18px;
+    line-height: 28px;
+    background: #fff;
+    border-bottom: none;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .03);
+    padding: 20px 32px 16px;
+    position: relative;
+    z-index: 2;
+}
+
+.titleSendCv span {
+    color: #186EA0;
+}
+
+.form__sendCv {
+    margin: 0;
+    max-height: 70vh;
+    overflow: auto;
+    padding: 15px 28px 10px 32px;
+}
+
+.postCv {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+}
+
+.jFiler-input-dragDrop {
+    margin: 0 auto;
+    max-width: 404px;
+    position: relative;
+}
+
+.jFiler-input-inner {
+    display: grid;
+    gap: 8px;
+    text-align: center;
+}
+
+.jFiler-input-icon {
+    color: #186EA0;
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 10px;
+    justify-content: center;
+    letter-spacing: .175px;
+    line-height: 22px;
+    fill: #186EA0;
+    align-items: center;
+    cursor: pointer;
+}
+
+.jFiler-input-inner_format {
+    color: #7f878f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn-upload-file {
+    align-items: center;
+    background: #f2f4f5;
+    border-radius: 4px;
+    color: #263a4d;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 8px;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: .175px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.jFiler-input-icon svg {
+    height: 28px;
+    width: 41.778px;
+}
+
+.title__infoMe {
+    color: #186EA0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.row__infoMe {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.row__infoMe label {
+    width: 20%;
+}
+
+.row__infoMe input {
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+.row__infoMe textarea {
+    width: 80%;
+    border: 1px solid #ddd;
+}
+
+.row__infoMe sup {
+    color: #f00;
+}
+
+.group_btn_sendCv {
+    align-items: center;
+    background: #fff;
+    border-top: none;
+    box-shadow: 0 -3px 4px 0 rgba(0, 0, 0, .03);
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 16px 32px;
+    position: relative;
+}
+
+.closeBtn__sencv {
+    background: #f2f4f5;
+    border: none;
+    border-radius: 4px;
+    color: #263a4d;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    height: 40px;
+    line-height: 22px;
+    padding: 8px 16px;
+    position: unset;
+}
+
+.send__CvTo {
+    background: #186EA0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    flex-grow: 1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    height: 40px;
+    letter-spacing: .175px;
+    line-height: 22px;
+    margin: 0;
+    padding: 8px 16px;
+    width: 85px;
+}
+
+.custom-radio-circle-2 {
+    align-items: center;
+    display: flex;
+}
+
+.box-input {
+    background-color: #fff;
+    border: 1px solid #186EA0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: height .35s ease;
+}
+
+.desc__infoMe {
+    margin-top: 30px;
+}
+
+.title__uploadCV {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#last_apply_id {
+    display: none;
+}
+
+.custom-radio-circle-2 label {
+    align-items: flex-start;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    color: #186EA0;
+    font-size: 14px;
+}
+
+.custom-radio-circle-2 label .check-mark {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.custom-radio-circle-2 label .check-mark::before {
+    aspect-ratio: 1/1;
+    background: 0 0;
+    border: 1px solid #186EA0;
+    border-radius: 50%;
+    content: " ";
+    display: inline-block;
+    margin: 0 8px 0 0;
+    position: relative;
+    width: 20px;
+}
+
+.custom-radio-circle-2 label .check-mark::after {
+    aspect-ratio: 1/1;
+    background: #186EA0;
+    border-radius: 10px;
+    content: " ";
+    display: block;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 10px;
+}
+
+.action-right a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.16px;
+    line-height: 22px;
+    color: #186EA0;
+}
+.rules {
+    max-width: 450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.rules a {
+    color: #186EA0;
+}
+.main__login__sendCv {
+    text-align: center;
+}
+
+.title__bt__login__sendCv {
+    color: #186EA0;
+}
+
+.main__login__sendCv p {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+
+.action__login__sendCv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    margin-bottom: 15px;
+}
+
+.group__registerAndSign {
+    margin-left: 20px;
+}
+
+.group__registerAndSignin {
+    border-radius: 5px;
+    background: #186EA0;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.group__registerAndSignup {
+    border-radius: 5px;
+    background: #282f33;
+    color: #fff;
+}
+
+.group__registerAndSignup:hover {
+    background: #186EA0;
+}
+
+.group__registerAndSignin:hover {
+    background: #282f33;
+}
+
+.group__registerAndSign button {
+    min-width: 100px;
+}
+@media(min-width:1200px) {
+    .company_details {
+        flex-direction: row;
+    }
+
+    .company_details .company_detail_left {
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        position: relative;
+        width: calc(50% - 1px);
+        padding: 36px 20px;
+        margin-bottom: 0;
+    }
+
+    .company_details .company_detail_right {
+        border: 1px solid #e1e1e1;
+        border-radius: 5px;
+        position: relative;
+        width: calc(50% - 1px);
+        padding: 36px 7px;
+    }
+}

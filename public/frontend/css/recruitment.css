@@ -1,0 +1,226 @@
+.candidate__tablink {
+
+    outline: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    transition: 0.2s ease;
+    color: #fff;
+    background-color: #b3cde4;
+    border-color: #b3cde4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    height: auto;
+    font-size: 14px;
+}
+
+.candidate__tablink:hover {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.candidate__tablink.active {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+.candidate-tabcontent p {
+    color: #333;
+}
+
+.tab-toggle .candidate__tablink:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.tab-toggle .candidate__tablink:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.candidate-top {
+    padding: 8px 16px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.search-tap,
+.search__content {
+    gap: 8px;
+}
+
+.search__content b,
+.search-tap span {
+    font-size: 14px;
+}
+
+.list-candidate .check__detail {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #28a745;
+}
+
+.list-candidate .profiles__detail {
+    border: 1px solid #d1d1d1
+}
+
+.list-candidate {
+    margin: 20px 0;
+}
+
+.pagination-wrap {
+    padding-bottom: 20px;
+}
+
+.pagination-nav a {
+    height: 35px;
+    min-width: 35px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.filter-title p {
+    cursor: pointer;
+    background-color: #f5fff4;
+    margin: 0 8px 16px 8px;
+    font-size: 14px;
+    padding: 8px;
+    color: #212529;
+}
+
+svg.active {
+    transition: 1s ease;
+    transform: rotate(180deg);
+}
+
+.candidate-right {
+    padding-top: 8px;
+}
+
+.candidate-right,
+.candidate-left {
+    background: #fff;
+}
+
+.dropdown-select input {
+    padding: 10px;
+}
+
+.dropdown-select {
+    padding: 8px;
+    display: none;
+}
+
+.dropdown-select-nav li {
+    color: #444;
+    font-size: 14px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.dropdown-select-nav li:hover {
+    background-color: #5897fb;
+    color: #fff;
+}
+
+.dropdown-select.active {
+    display: block;
+}
+
+.checkbox-list.active {
+    display: none;
+}
+
+.checkbox-list {
+    padding: 8px;
+    margin-top: -10px;
+}
+
+.checkbox-list li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #888;
+    font-weight: 300;
+}
+
+.checkbox-list li input {
+    width: 16px;
+    height: 16px;
+}
+
+.job-content {
+    font-size: 14.4px;
+}
+
+.list-jobs {
+    padding: 0 16px 16px 16px;
+}
+
+a.job__name {
+    color: #444;
+}
+
+a.job__address {
+    color: #888;
+}
+
+.job-desc__item {
+    gap: 5px;
+    font-size: 13.6;
+    color: #212529;
+}
+
+
+.job-item {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 16px;
+}
+
+
+.job-filter {
+    gap: 5px;
+    font-size: 13px;
+    color: #343a40;
+    margin-top: 8px;
+}
+
+.job-filter {
+    padding: 0 16px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+}
+
+.job-filter.active .dropdown-content {
+    display: block;
+}
+
+.dropdown-content span {
+    padding: 12px 16px;
+}
+
+.arrow-up {
+    top: -10px;
+    left: 50%;
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #f9f9f9;
+}

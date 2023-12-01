@@ -1,0 +1,507 @@
+.banner__info {
+    background-color: rgba(255, 255, 255, .9);
+    z-index: 5;
+    padding: 50px 30px;
+}
+
+.banner__title,
+.why__heading h2 {
+    color: #02528E;
+    font-size: calc(var(--heading-2) - 3px);
+}
+
+.banner__subtitle,
+.banner__title,
+.banner__desc p {
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+.recruiter-banner__slider .slick-dots {
+    bottom: 20px;
+}
+
+.recruiter-banner__slider .slick-slide {
+    height: auto;
+}
+
+.recruiter-banner__slider .slick-dots li button:before {
+    font-size: 55px;
+    color: #02528E;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 4.8px;
+    background-color: #02528E;
+}
+
+.recruiter-banner__slider .slick-dots li {
+    margin: 0 10px;
+}
+
+.recruiter-banner__slider .slick-dots li button {
+    width: 30px;
+    height: 4.8px;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.recruiter-banner__slider .slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+.why {
+    background-image: url(https://vieclamdanang.edu.vn/public/upload/icon/ntd/bg-why.svg);
+    background-size: cover;
+    padding: 40px 0;
+    background-color: #fff
+}
+
+.why__heading h2 {
+    margin-bottom: 16px;
+    padding: 30px 0 20px;
+    color: #02528E;
+    background: url(https://vieclamdanang.edu.vn/public/upload/icon/ntd/bg_line.png) center bottom no-repeat;
+}
+
+.why__desc {
+    color: #888;
+    margin-bottom: 16px;
+}
+
+.why__inner {
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.why__image {
+    z-index: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+.why__image img {
+    animation: circleRotate 7s infinite;
+    -webkit-animation: circleRotate 7s infinite;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.why-box__title {
+    color: #02528E;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.why-box__icon {
+    width: 70px;
+    background-color: #02528E;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.why-box__icon svg {
+    height: 32px;
+    width: 32px;
+    fill: #fff;
+}
+
+.why-box-desc {
+    padding-top: 15px;
+    color: #626266;
+    min-height: 87px;
+}
+
+.why-phone {
+    width: 270px;
+    margin: 0 auto;
+    height: 540px;
+    background: url(https://vieclamdanang.edu.vn/public/upload/icon/ntd/bg_mobile.png) center center no-repeat;
+    padding: 15px;
+}
+
+.why-phone-box {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    width: 240px;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.why-box__title {
+    width: 80%;
+}
+
+.why-right .why-box-head,
+.why-left .why-box-head {
+    flex-direction: row-reverse;
+}
+
+.why-right .why-box__icon {
+    margin-left: 0;
+}
+
+.why-box-head {
+    justify-content: left;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    box-shadow: 0 10px 30px -5px rgb(0 0 0 / 12%);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.service {
+    padding-bottom: 40px;
+}
+
+.service__title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.service-item .service__desc+.service__desc {
+    margin-top: 8px;
+
+}
+
+.service__desc {
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.service__desc img {
+    margin-right: 5px;
+    margin-top: -2px;
+    height: 16px;
+}
+
+.service__desc--link {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.service__desc--link:hover {
+    color: #0056b3;
+}
+
+.service__btn,
+.recruitment-price__btn a {
+    border-radius: 100px;
+    padding: 10px 25px;
+    font-size: 14px;
+    margin-top: 20px;
+    background-color: #f89d20;
+    border-color: #f89d20;
+    cursor: pointer;
+    color: #fff;
+}
+
+.recruitment-price__btn {
+    margin-top: 28px;
+}
+
+.service__btn:hover,
+.recruitment-price__btn a:hover {
+    background-color: #dc872e;
+    border-color: #dc872e;
+}
+
+.service-item+.service-item {
+    margin-top: 20px;
+}
+
+.service-item:nth-child(even)>div {
+    flex-direction: row-reverse;
+}
+
+.recruitment-price {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.recruitment-price .price-inner {
+    border-radius: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    background-color: #F7F7F7;
+    border: 1px solid #d0d0d0;
+    margin-right: 20px;
+}
+
+.recruitment-price__slider .slick-slide {
+    height: auto;
+}
+
+.price-inner ul {
+    padding: 15px;
+}
+
+.price-inner ul li:first-child {
+    font-weight: 700;
+    color: #02528E;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #a9a9a9;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.price-inner ul li:first-child a,
+.compare-thead a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    fill: #fff;
+    text-align: center;
+    font-size: 0.7rem;
+    background: #c6c6c6;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+
+.price-inner ul li {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.price-bottom {
+    background-color: #02528E;
+    padding: 15px 0 50px;
+    margin-top: 15px;
+    border-top: 1px dotted #a9a9a9;
+}
+
+.price-bottom__btn {
+    background-color: #02528E;
+    min-width: 150px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.05em;
+    border: 1px solid #aaa;
+    color: #fff;
+}
+
+.price-bottom__btn:hover {
+    background-color: #0069d9;
+
+}
+
+.price-bottom__notification {
+    font-size: 12px;
+    color: #ddd;
+    font-style: italic;
+    margin-top: 10px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.price-inner ul li input:not(:disabled)+label:hover {
+    color: #02528E;
+}
+
+.price-inner ul li label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+
+.price-inner ul li input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.price-inner ul li label i {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 16px;
+    width: 16px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: .2s all ease;
+    border: 1px solid #a5a5a5;
+}
+
+.compare-thead th {
+    height: 100px;
+    padding: 13px;
+    background-color: #02528E;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 45%);
+}
+
+.compare-body tr {
+    box-shadow: -5px 0 15px 0 rgba(0, 0, 0, 0.1), 5px 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.compare-thead__title {
+    color: #fff;
+}
+
+.compare-thead__desc {
+    color: #fff;
+    font-size: 14px;
+}
+
+.compare-thead th:first-child {
+    flex-direction: column;
+    border-top-left-radius: 20px;
+}
+
+.compare-thead th {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compare .compare-thead th a {
+    top: auto;
+}
+
+.compare .compare-thead th:last-child {
+    border-top-right-radius: 20px;
+}
+
+.compare-body tr td {
+    background-color: #fff;
+    padding: 15px;
+    color: #52525B;
+    font-size: 14px;
+    line-height: 1.3;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compare-body tr td img {
+    margin-right: 15px;
+    width: 30px;
+}
+
+.compare-body tr:nth-child(even) td {
+    background-color: #E7E9F5;
+}
+
+.compare-body tr td:first-child {
+    justify-content: flex-start;
+}
+
+.compare-body svg {
+    fill: #02528E;
+}
+
+.compare-body a {
+    border-radius: 4px;
+    border-color: #02528E;
+    background: #02528E;
+    color: #fff;
+    border: 1px solid #c4c4c4;
+    padding: 7px 20px;
+    font-size: 15px;
+}
+
+.compare-body a:hover {
+    background: #01365d;
+    border-color: #01365d;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .why-left .why-box-head {
+        flex-direction: inherit;
+    }
+
+    .why-box__icon {
+        width: 70px;
+    }
+
+    .why__inner {
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .banner__info {
+        padding: 50px 30px;
+        left: 200px;
+        max-width: 350px;
+        bottom: auto;
+    }
+
+    .why-phone,
+    .why__image {
+        display: block;
+    }
+
+    .why-box {
+        padding-top: 60px;
+    }
+
+    .why-left {
+        text-align: right;
+    }
+
+    .why-left,
+    .why-right {
+        padding: 35px 15px;
+    }
+}
+
+@media (min-width: 1400px) {}
+
+@keyframes circleRotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
